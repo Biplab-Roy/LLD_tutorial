@@ -12,8 +12,8 @@ protected:
     std::unordered_map<int, std::shared_ptr<ParkingSpot>> parkingSpots;
 
 public:
-    ParkingSpotManager() = default;
-    ~ParkingSpotManager() = default;
+    ParkingSpotManager() = delete;
+    ~ParkingSpotManager() = delete;
 
     virtual Status addParkingSpace(int id) = 0;
 
