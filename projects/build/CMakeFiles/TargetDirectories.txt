@@ -1,0 +1,12 @@
+/home/biplab/Desktop/lld/projects/build/CMakeFiles/ParkingLot.dir
+/home/biplab/Desktop/lld/projects/build/CMakeFiles/edit_cache.dir
+/home/biplab/Desktop/lld/projects/build/CMakeFiles/rebuild_cache.dir
+/home/biplab/Desktop/lld/projects/build/Vehicle/CMakeFiles/Vehicle.dir
+/home/biplab/Desktop/lld/projects/build/Vehicle/CMakeFiles/edit_cache.dir
+/home/biplab/Desktop/lld/projects/build/Vehicle/CMakeFiles/rebuild_cache.dir
+/home/biplab/Desktop/lld/projects/build/ParkingSpot/CMakeFiles/ParkingSpot.dir
+/home/biplab/Desktop/lld/projects/build/ParkingSpot/CMakeFiles/edit_cache.dir
+/home/biplab/Desktop/lld/projects/build/ParkingSpot/CMakeFiles/rebuild_cache.dir
+/home/biplab/Desktop/lld/projects/build/Ticket/CMakeFiles/TicketLib.dir
+/home/biplab/Desktop/lld/projects/build/Ticket/CMakeFiles/edit_cache.dir
+/home/biplab/Desktop/lld/projects/build/Ticket/CMakeFiles/rebuild_cache.dir
