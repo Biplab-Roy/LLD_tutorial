@@ -18,7 +18,7 @@ Status Entrance::findParking(VehicleType vehicleType, std::string &parkingSpot) 
 Status Entrance::blockParking(std::string &parkingSpotId, SpotType parkingSpotType) {
     switch(parkingSpotType) {
         case kTwoWheelerParkingSpot:
-            twoWheelerParkingSpotManager.blockParkingSpot
+            twoWheelerParkingSpotManager.blockParkingSpot()
         case kFourWheelerParkingSpot:
             fourWheelerParkingSpotManager.
         default:

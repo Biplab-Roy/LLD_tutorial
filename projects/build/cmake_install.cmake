@@ -1,4 +1,4 @@
-# Install script for directory: /home/biplab/Desktop/lld/projects/parking_lot
+# Install script for directory: /home/biplab/Desktop/lld/projects/Logger
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,21 +40,6 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/biplab/Desktop/lld/projects/build/Vehicle/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/biplab/Desktop/lld/projects/build/ParkingSpot/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/biplab/Desktop/lld/projects/build/Ticket/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

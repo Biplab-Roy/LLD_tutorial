@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/biplab/Desktop/lld/projects/parking_lot
+CMAKE_SOURCE_DIR = /home/biplab/Desktop/lld/projects/Logger
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/biplab/Desktop/lld/projects/build
@@ -117,63 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ParkingLot
+# Target rules for targets named Logger
 
 # Build rule for target.
-ParkingLot: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ParkingLot
-.PHONY : ParkingLot
+Logger: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Logger
+.PHONY : Logger
 
 # fast build rule for target.
-ParkingLot/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParkingLot.dir/build.make CMakeFiles/ParkingLot.dir/build
-.PHONY : ParkingLot/fast
-
-#=============================================================================
-# Target rules for targets named Vehicle
-
-# Build rule for target.
-Vehicle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vehicle
-.PHONY : Vehicle
-
-# fast build rule for target.
-Vehicle/fast:
-	$(MAKE) $(MAKESILENT) -f Vehicle/CMakeFiles/Vehicle.dir/build.make Vehicle/CMakeFiles/Vehicle.dir/build
-.PHONY : Vehicle/fast
-
-#=============================================================================
-# Target rules for targets named ParkingSpot
-
-# Build rule for target.
-ParkingSpot: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ParkingSpot
-.PHONY : ParkingSpot
-
-# fast build rule for target.
-ParkingSpot/fast:
-	$(MAKE) $(MAKESILENT) -f ParkingSpot/CMakeFiles/ParkingSpot.dir/build.make ParkingSpot/CMakeFiles/ParkingSpot.dir/build
-.PHONY : ParkingSpot/fast
-
-#=============================================================================
-# Target rules for targets named TicketLib
-
-# Build rule for target.
-TicketLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TicketLib
-.PHONY : TicketLib
-
-# fast build rule for target.
-TicketLib/fast:
-	$(MAKE) $(MAKESILENT) -f Ticket/CMakeFiles/TicketLib.dir/build.make Ticket/CMakeFiles/TicketLib.dir/build
-.PHONY : TicketLib/fast
+Logger/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/build
+.PHONY : Logger/fast
 
 Driver.o: Driver.cpp.o
 .PHONY : Driver.o
 
 # target to build an object file
 Driver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParkingLot.dir/build.make CMakeFiles/ParkingLot.dir/Driver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/Driver.cpp.o
 .PHONY : Driver.cpp.o
 
 Driver.i: Driver.cpp.i
@@ -181,7 +142,7 @@ Driver.i: Driver.cpp.i
 
 # target to preprocess a source file
 Driver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParkingLot.dir/build.make CMakeFiles/ParkingLot.dir/Driver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/Driver.cpp.i
 .PHONY : Driver.cpp.i
 
 Driver.s: Driver.cpp.s
@@ -189,32 +150,8 @@ Driver.s: Driver.cpp.s
 
 # target to generate assembly for a file
 Driver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParkingLot.dir/build.make CMakeFiles/ParkingLot.dir/Driver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Logger.dir/build.make CMakeFiles/Logger.dir/Driver.cpp.s
 .PHONY : Driver.cpp.s
-
-ParkingApi.o: ParkingApi.cpp.o
-.PHONY : ParkingApi.o
-
-# target to build an object file
-ParkingApi.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParkingLot.dir/build.make CMakeFiles/ParkingLot.dir/ParkingApi.cpp.o
-.PHONY : ParkingApi.cpp.o
-
-ParkingApi.i: ParkingApi.cpp.i
-.PHONY : ParkingApi.i
-
-# target to preprocess a source file
-ParkingApi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParkingLot.dir/build.make CMakeFiles/ParkingLot.dir/ParkingApi.cpp.i
-.PHONY : ParkingApi.cpp.i
-
-ParkingApi.s: ParkingApi.cpp.s
-.PHONY : ParkingApi.s
-
-# target to generate assembly for a file
-ParkingApi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParkingLot.dir/build.make CMakeFiles/ParkingLot.dir/ParkingApi.cpp.s
-.PHONY : ParkingApi.cpp.s
 
 # Help Target
 help:
@@ -224,16 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ParkingLot"
-	@echo "... ParkingSpot"
-	@echo "... TicketLib"
-	@echo "... Vehicle"
+	@echo "... Logger"
 	@echo "... Driver.o"
 	@echo "... Driver.i"
 	@echo "... Driver.s"
-	@echo "... ParkingApi.o"
-	@echo "... ParkingApi.i"
-	@echo "... ParkingApi.s"
 .PHONY : help
 
 

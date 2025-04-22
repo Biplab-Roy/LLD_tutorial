@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/ParkingLot.dir/Driver.cpp.o CMakeFiles/ParkingLot.dir/ParkingApi.cpp.o -o ParkingLot  -Wl,-rpath,/home/biplab/Desktop/lld/projects/build/Vehicle:/home/biplab/Desktop/lld/projects/build/ParkingSpot:/home/biplab/Desktop/lld/projects/build/Ticket Vehicle/libVehicle.so ParkingSpot/libParkingSpot.so Ticket/libTicketLib.so 

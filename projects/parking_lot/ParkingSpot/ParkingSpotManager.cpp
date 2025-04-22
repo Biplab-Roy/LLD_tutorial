@@ -4,7 +4,7 @@ int ParkingSpotManager::findParkingSpace() {
     for(auto parkingSpot : parkingSpots) {
         if(parkingSpot.second.get()->isAvailable()) return parkingSpot.first;
     }
-    return -1;
+    return 0;
 }
 
 Status ParkingSpotManager::removeParkingSpace(int id) {

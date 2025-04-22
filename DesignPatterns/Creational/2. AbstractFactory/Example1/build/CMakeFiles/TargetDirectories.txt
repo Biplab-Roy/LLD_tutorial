@@ -1,0 +1,6 @@
+/home/biplab/Desktop/lld/DesignPatterns/Creational/2. AbstractFactory/Example1/build/CMakeFiles/DrawShape.dir
+/home/biplab/Desktop/lld/DesignPatterns/Creational/2. AbstractFactory/Example1/build/CMakeFiles/edit_cache.dir
+/home/biplab/Desktop/lld/DesignPatterns/Creational/2. AbstractFactory/Example1/build/CMakeFiles/rebuild_cache.dir
+/home/biplab/Desktop/lld/DesignPatterns/Creational/2. AbstractFactory/Example1/build/Shapes/CMakeFiles/libShapes.dir
+/home/biplab/Desktop/lld/DesignPatterns/Creational/2. AbstractFactory/Example1/build/Shapes/CMakeFiles/edit_cache.dir
+/home/biplab/Desktop/lld/DesignPatterns/Creational/2. AbstractFactory/Example1/build/Shapes/CMakeFiles/rebuild_cache.dir

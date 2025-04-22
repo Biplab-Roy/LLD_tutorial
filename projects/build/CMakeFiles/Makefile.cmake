@@ -7,13 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/biplab/Desktop/lld/projects/Logger/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
-  "/home/biplab/Desktop/lld/projects/parking_lot/CMakeLists.txt"
-  "/home/biplab/Desktop/lld/projects/parking_lot/ParkingSpot/CMakeLists.txt"
-  "/home/biplab/Desktop/lld/projects/parking_lot/Ticket/CMakeLists.txt"
-  "/home/biplab/Desktop/lld/projects/parking_lot/Vehicle/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -43,15 +40,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Vehicle/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "ParkingSpot/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Ticket/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ParkingLot.dir/DependInfo.cmake"
-  "Vehicle/CMakeFiles/Vehicle.dir/DependInfo.cmake"
-  "ParkingSpot/CMakeFiles/ParkingSpot.dir/DependInfo.cmake"
-  "Ticket/CMakeFiles/TicketLib.dir/DependInfo.cmake"
+  "CMakeFiles/Logger.dir/DependInfo.cmake"
   )

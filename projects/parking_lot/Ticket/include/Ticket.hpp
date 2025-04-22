@@ -8,7 +8,7 @@
 class Ticket {
 
 public:
-    Ticket(std::string parkingSpotId, Vehicle vehicle) {
+    Ticket(std::string parkingSpotId, Vehicle *vehicle) {
         this->vehicle = vehicle;
         this->parkingSpot = parkingSpot;
         this->arrivalTime = std::chrono::system_clock::now();
