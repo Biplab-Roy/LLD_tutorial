@@ -1,9 +1,8 @@
 cmake_minimum_required(VERSION 3.28.3)
-Project(DrawShape)
+Project(DialogBox)
 
 set(SOURCE_FILES
-    
     Main.cpp
 )
 
-add_executable(DrawShape ${SOURCE_FILES})
+add_executable(DialogBox ${SOURCE_FILES})

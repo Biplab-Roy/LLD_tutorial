@@ -1,0 +1,3 @@
+/home/biplab/Desktop/lld/DesignPatterns/Creational/3. Builder/Example1/build/CMakeFiles/DialogBox.dir
+/home/biplab/Desktop/lld/DesignPatterns/Creational/3. Builder/Example1/build/CMakeFiles/edit_cache.dir
+/home/biplab/Desktop/lld/DesignPatterns/Creational/3. Builder/Example1/build/CMakeFiles/rebuild_cache.dir
